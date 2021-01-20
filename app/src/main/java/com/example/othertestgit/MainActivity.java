@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         //1 мерж
 
         //в ветке one 2 коммит
+        //+ еще комит во 2 пул
     }
 }
