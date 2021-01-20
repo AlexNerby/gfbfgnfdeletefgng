@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //1 мерж
+
+        //в ветке one 2 коммит
     }
 }
