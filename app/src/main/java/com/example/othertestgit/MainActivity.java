@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //1 мерж
 
         //в ветке one 2 коммит
         //+ еще комит во 2 пул
+        //3 комит, удалили код 1 мержа
     }
 }
