@@ -1,7 +1,7 @@
 package com.example.othertestgit;
 
 public class Other {
-
+    //new line here
 
     private String name;
     private int age;
@@ -18,5 +18,5 @@ public class Other {
         name = "new name master";
         return age;
     }
-    }
+}
 
