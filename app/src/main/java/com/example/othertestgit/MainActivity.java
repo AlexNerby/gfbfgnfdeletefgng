@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         test = new Test(1);
         other = new Other("name");
+        //add commit
 
     }
 }
