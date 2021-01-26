@@ -6,14 +6,13 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    Test test;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        //в ветке one 2 коммит
-        //+ еще комит во 2 пул
-        //3 комит, удалили код 1 мержа
+        test = new Test(1);
     }
 }
