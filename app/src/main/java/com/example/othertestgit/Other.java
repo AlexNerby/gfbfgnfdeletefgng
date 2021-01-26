@@ -14,16 +14,11 @@ public class Other {
     }
 
     public int getAge() {
+        name = "new name master";
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Other(String name) {
-        this.name = name;
 
 
     }
-}
+
