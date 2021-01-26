@@ -6,7 +6,8 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    Test test;
+    private Test test;
+    private Other other;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         test = new Test(1);
+        other = new Other("name");
+
     }
 }
